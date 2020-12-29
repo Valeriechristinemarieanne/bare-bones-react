@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "npx webpack",
-        "start": "npx webpack serve --mode development --open --hot"
+        "start": "npx webpack serve --mode development"
     },
     "author": "\"Valérie Deguine\"",
     "license": "ISC",
@@ -25,7 +25,7 @@
         "eslint-loader": "^4.0.2",
         "eslint-plugin-react": "^7.21.5",
         "html-loader": "^1.3.2",
-        "html-webpack-plugin": "^4.5.0",
+        "html-webpack-plugin": "^5.0.0-alpha.6",
         "prettier": "2.2.1",
         "style-loader": "^2.0.0",
         "webpack": "^5.11.0",
